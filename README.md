@@ -1,15 +1,5 @@
 # CUDS Aerofoil Competition 2025
 
-## Results
-
-### 0 degrees AoA
-
-**Lift/drag ratio: `14.264`**
-
-### 15 degrees AoA
-
-**Lift/drag ratio: `5.155`**
-
 ## Overview
 
 Brief available [here](./aerofoil%20comp.pdf).
@@ -22,6 +12,28 @@ CFD was run using Simscale, with the project [here](https://www.simscale.com/pro
 CSV data was exported from Simscale and is available in [`0 deg.csv`](./results/0%20deg.csv) and [`15 deg.csv`](./results/15%20deg.csv).
 
 Results were parsed with [`parse_csv.ipynb`](./parse_csv.ipynb), which uses Pandas and Plotly to visualise the data and then exported as PDFs: [`0 deg.pdf`](./results/0%20deg.pdf) and [`15 deg.pdf`](./results/15%20deg.pdf).
+
+## Renders
+
+### 0 degrees AoA
+
+![0 deg model 1](./models/0%20deg-1.png)
+![0 deg model 2](./models/0%20deg-2.png)
+
+### 15 degrees AoA
+
+![15 deg model 1](./models/15%20deg-1.png)
+![15 deg model 2](./models/15%20deg-2.png)
+
+## Results
+
+### 0 degrees AoA
+
+**Lift/drag ratio: `14.264`**
+
+### 15 degrees AoA
+
+**Lift/drag ratio: `5.155`**
 
 ## Graphics
 
